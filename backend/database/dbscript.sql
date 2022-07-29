@@ -26,9 +26,9 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `usuarios`
 --
-CREATE DATABASE proyecto;
+CREATE DATABASE IF NOT EXISTS proyecto;
 USE proyecto;
-CREATE TABLE `usuarios` (
+CREATE TABLE IF NOT EXISTS `usuarios` (
   `id` int(10) NOT NULL,
   `password` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL
