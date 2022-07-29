@@ -11,5 +11,5 @@ Espero que les agrade.
 
 
 ```bash
-Créditos @NASCOR-TEAM:  Jose, Mariela y Mario 
+Créditos @NASCOR-TEAM:  Glauce, Jose, Mariela, Mario y Nico.
 ```
