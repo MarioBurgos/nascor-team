@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 CREATE DATABASE IF NOT EXISTS proyecto;
 USE proyecto;
 CREATE TABLE IF NOT EXISTS `usuarios` (
-  `id` int(10) NOT NULL,
+  `id` int(10) NOT NULL AUTO_INCREMENT,
   `password` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
