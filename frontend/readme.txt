@@ -1,0 +1,1 @@
+El frontend de la aplicación consistirá en una página web responsive, diseñada con una arquitectura por componenntes. Luego os explico de que va esto
