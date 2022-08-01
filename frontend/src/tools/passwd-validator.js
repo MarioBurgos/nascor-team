@@ -2,7 +2,7 @@ export class PasswordValidator{
 
     constructor()   {}
     
-/*Valida minimo una MAYUSCULA, una MINUSCULA, un NUMERO y un CARACTER ESPECIAL*/
+/*Valida minimo 8 char una MAYUSCULA, una MINUSCULA, un NUMERO y un CARACTER ESPECIAL*/
     validate(pass){
         let regex = new RegExp(
             "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$"
