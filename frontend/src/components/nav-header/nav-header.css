@@ -9,8 +9,8 @@ css nav-header
   header {
     background: rgba(0,0,0,0.7);
     width: 100%;
-    position: fixed;
-    z-index: 100;
+    position: relative;
+    z-index: 10;
   }
   
   nav {

@@ -1,0 +1,24 @@
+h2{
+    text-align: center;
+    margin: 2em auto 4em auto;
+}
+.form-registro{
+    text-align: end;
+    width: fit-content;
+    margin: auto;
+    
+}
+.row{
+    margin-bottom: .5em;
+}
+#btn-registro{
+    padding: .5em 1em;
+    margin: 1em 0;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+.btn-registro:hover{
+    background-color: greenyellow;
+    color: black;
+}
