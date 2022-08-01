@@ -1,4 +1,4 @@
-import { NavHeaderComponent } from "../components/nav-header/nav-header.component.js";
+import { NavHeaderComponent } from "../components/nav-header/nav-header.js";
 import { Usuario } from "../model/usuario.model.js";
 
 window.addEventListener('load', (evt) => {

@@ -1,4 +1,4 @@
-import { NavHeaderComponent } from "../components/nav-header/nav-header.component.js";
+import { NavHeaderComponent } from "../components/nav-header/nav-header.js";
 
 window.addEventListener('load', (evt) => {
   /**
