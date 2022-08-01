@@ -1,0 +1,40 @@
+/**
+css nav-header
+*/
+.img-logo{
+    padding: .75em;
+    width: 100px;
+    height: 100px;
+  }
+  header {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  
+  nav {
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0 .5em;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #eca023;
+  }

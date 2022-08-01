@@ -8,13 +8,12 @@ export class NavHeaderComponent {
   }
 
   render() {
-    /**let imgLogo = document.createElement("IMG");
-    imgLogo.setAttribute("src", constNavHeader.LOGOURL);
-    imgLogo.className = 'img-logo';
-    return this.parentDiv.appendChild(imgLogo);
-    */
+   
+   /**inyecta el archivo html */
     $(function () {
       $("#nav-header").load("../../components/nav-header/nav-header.html");
     });
+    /**inyecta su css en el tag head */
+    $("head").append('<link rel="stylesheet" href="../../components/nav-header/nav-header.css" type="text/css" />');
   }
 }
