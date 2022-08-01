@@ -32,6 +32,6 @@ export class Usuario {
     parentForm.appendChild(labelUser);
     parentForm.appendChild(labelPass);
     parentForm.appendChild(divButtons);
-    document.body.prepend(parentForm); // con prepend lo agregamos al body como primer hijo
+    document.body.append(parentForm); // con prepend lo agregamos al body como primer hijo
   }
 }
