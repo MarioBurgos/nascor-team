@@ -1,4 +1,4 @@
-export const navHeader = {
+export const constNavHeader = {
 
-    logoUrl : "../../assets/img/nsc-logo.png",
+    LOGOURL : "../../assets/img/nsc-logo.png",
 }
