@@ -25,7 +25,7 @@ css formulario nico
 }
 #user-login label {
   /* modificar estilo de letra*/
-  padding: 0.8rem auto;
+  
 }
 
 #user-login input {
@@ -51,4 +51,3 @@ css formulario nico
   margin: 0.2rem 0.5rem;
   padding: 0.2rem 0.5rem;
 }
-
