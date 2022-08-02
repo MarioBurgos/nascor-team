@@ -20,7 +20,7 @@ export class FormRegistro {
       '<link rel="stylesheet" href="../../components/form-registro/form-registro.css" type="text/css" />'
     );*/
   }
-  getFormData() {
+  procesaFormData() {
     this.form = document.querySelector("#form");
     if (this.validaForm(this.form)) console.log("VALIDADO");
     else console.log("INCORRECTO FORM");

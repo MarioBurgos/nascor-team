@@ -23,6 +23,6 @@ window.addEventListener('load', (evt) => {
 /**listener de evento click */
 document.addEventListener('click', evento => {
   if(evento.target.id == 'btn-registro'){
-  formRegistro.getFormData();
+  formRegistro.procesaFormData();
   }
 });

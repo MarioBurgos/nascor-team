@@ -17,8 +17,9 @@ h2{
     background-color: green;
     color: white;
     border-radius: 5px;
+    font-weight: 900;
 }
-.btn-registro:hover{
+#btn-registro:hover{
     background-color: greenyellow;
     color: black;
 }

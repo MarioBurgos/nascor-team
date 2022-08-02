@@ -1,0 +1,20 @@
+1. instalar nodejs en tu equipo
+
+/***********************************************************************/
+/** ESTO SOLO SE HACE LA PRIMERA VEZ, CUANDO NO EXISTE EL PACKAGE.JSON**/
+/***********************************************************************/
+
+2. abrir una terminal en el directorio backend del proyecto y ejecutar 
+            npm init --y
+3. veras que se crea un package.json
+4. ahora se puede instalar el package de mysql con el comando 
+            npm install mysql
+
+/*************************************************************************/
+/** SI YA EXISTÍA EL PACKAGE.JSON EN EL PROYECTO SIGUE A PARTIR DE AQUÍ **/
+/*************************************************************************/
+
+5. ejecuta en una terminal (directorio /backend) el comando
+            npm start
+
+6. Ya puedes utilizar el paquete mysql en la aplicación.  Cuídate.
